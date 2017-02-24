@@ -1,0 +1,511 @@
+body  {
+font-family: Verdana, Geneva, Arial, sans-serif;
+font-size: small;  
+margin: 0px;
+}
+
+a { 
+    text-decoration: none; /* ќтмен€ем подчеркивание у ссылки */
+color: #040478;
+   }
+img {
+border : 0; /*”даление границы на ссылках изображений в »≈ */
+}
+.exit {
+float: right;
+padding-right: 10px;
+padding-top: 5px;
+}
+#file_upload {
+	padding-top: 100px;
+}
+#out {
+	padding-left:100px;
+}
+#logo {
+	width:420px;
+	float:left;
+}
+#tabletop {
+font-size: 80%;
+text-align: right;
+}
+
+#hiuser {
+padding-right: 10px;
+width: 620px;
+color: black;
+font-size: 80%;
+}
+#hi {
+padding: 0px 5px 0px 520px;
+color: black;
+font-size: 80%;
+}
+.bottom {
+font-size: 120%;
+padding: 0px 5px 0px 5px;
+color: #040478;
+}
+#phone {
+/*padding-left: 740px;*/
+color: #FD6904;
+}
+
+#info  {
+background-color: #FFECBC;
+}
+#title {
+padding-left: 225px;
+color: #040478;
+font-size: 115%;
+text-decoration: none;
+}
+#video {
+padding-left: 135px;
+color: #040478;
+font-size: 115%;
+text-decoration: none;
+}
+#help {
+padding-left: 135px;
+color: #040478;
+font-size: 115%;
+text-decoration: none;
+}
+#aboutshop {
+padding-left: 135px;
+color: #040478;
+font-size: 115%;
+text-decoration: none;
+}
+
+
+/* index.php */
+
+#entrance  {
+top: 50%; /* Отступ в процентах от верхнего края окна */
+left: 50%; /* Отступ в процентах от левого края окна */
+position: absolute; /* Абсолютное позиционирование блока */
+margin-top: -225px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+margin-left: -225px; /* Отрицательный отступ от левого края страницы, должен равняться половине высоты блока со знаком минус */
+width: 480px;
+
+}
+
+#entrance h3 {
+text-align: center;
+}
+
+.star {
+color: #ff0000;
+}
+
+#forgetpass {
+font-size: 85%;
+text-align: right;
+padding: 10px;
+}
+
+#signup  {
+float: right;
+width: 450px;
+padding-top: 20px;
+margin-bottom: 400px;
+padding-right: 50px;
+}
+.input  {
+border-width: thin;
+border-style: solid;
+border-color: #909292;
+} 
+.th  {
+font-size: 85%;
+text-align: left;
+padding: 10px;
+}
+.orange  {
+border-width: thin;
+border-bottom-style: dotted;
+border-color: #D5E2EB;
+color: #black;
+text-align: center;
+padding:20px;
+} 
+#submitentrance  {
+width:150px;
+}
+#submitright  {
+text-align: left;
+padding: 10px;
+}
+#submitleft  {
+text-align: left;
+padding-left: 10px;
+}
+#footer  {
+position: absolute;
+bottom: 0;
+text-align: center;
+left: 40%;
+}
+.error {
+  border-width: thin;
+  border-bottom-style: dotted;
+  border-color: #D5E2EB;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 88%;
+}
+
+/* billing.php */
+
+#billing  {
+  padding-bottom: 200px;
+}
+#errorbill  {
+  border-width: thin;
+  border-color: #D5E2EB;
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 88%;
+}
+
+/* products.php */
+
+#products {
+border-width: thin;
+border-top-style: solid;
+border-color: white;
+text-align: center;
+}
+
+#products td {
+padding: 10px;
+}
+
+#view {
+}
+
+/*endorder.php */
+#endorder {
+padding-bottom: 500px;
+}
+#endorderh  {
+padding: 80px;
+color: #040478;
+text-align: center;
+}
+/*delivery.php*/
+#delivery {
+padding-bottom: 500px;
+color:#FD6904;
+}
+
+#deliverytable  {
+padding-left: 60px;
+padding-right: 60px;
+}
+#deliverytable h2 {
+text-align: center;
+}
+
+#deliveryh  {
+text-align: justify;
+color: #040478;
+line-height: 1.5;
+}
+
+
+/* product.php */
+
+#buy {
+border-width: thin;
+border-style: solid;
+border-color: #D5E2EB;
+margin-left: 150px;
+padding-bottom: 1200px;
+}
+
+#photo {
+float: left;
+}
+
+#tehn {
+float: left;
+padding-left: 40px;
+width: 320px;
+}
+
+#kompl {
+float: right;
+padding-right: 20px;
+width: 150px;
+}
+
+#button_har {
+float: left;
+padding-right: 500px;
+padding-left: 20px;
+}
+
+#descript {
+float: left;
+width: 920px;
+padding: 10px;
+color:#FD6904;
+}
+
+#descripttable h3 {
+text-align: center;
+}
+
+#descripttable td {
+width: 920px;
+}
+
+#descriptb  {
+text-align: justify;
+color: #040478;
+line-height: 1.5;
+}
+
+#photo2  {
+float: left;
+width: 920px;
+text-align: center;
+}
+
+#photo2 table {
+width: 920px;
+text-align: center;
+}
+
+
+
+#character  {
+text-align: justify;
+line-height: 1.5;
+padding-right: 50px;
+width: 250px;
+}
+
+
+#description h3 {
+color: #040478;
+text-decoration:underline;
+}
+
+#button {
+padding: 10px;
+text-align: left;
+}
+
+#button h2 {
+color: #FD6904;
+padding-right: 50px;
+}
+
+#buttoncost {
+padding-top: 6px;
+padding-right: 6px;
+}
+
+.color_orange  {
+color: #FD4F00;
+}
+.ele {
+color: #0061A8;
+}
+
+/*profile.php*/
+
+
+#orders_history  {
+border-width: thin;
+border-top-style: solid;
+border-color: #FD6904;
+text-align: center;
+font-size: 88%;
+width: 915px;
+
+}
+
+#orders_history td {
+padding: 10px;
+border-width: thin;
+border-top-style: solid;
+border-color: #D5E2EB;
+}
+
+#orders_history h2 {
+text-align: center;
+color:#FD6904;
+padding-bottom: 20px;
+}
+
+#settings_user  {
+padding: 10px;
+border-width: thin;
+border-top-style: solid;
+border-color: white;
+}
+
+
+#settings_user td {
+padding: 10px;
+border-width: thin;
+border-top-style: solid;
+border-color: #D5E2EB;
+text-align: left;
+}
+
+#settings_user h2 {
+text-align: center;
+color:#FD6904;
+padding-bottom: 20px;
+}
+
+/*edit_profile.php*/
+
+#edit_pass  {
+float: left;
+width: 450px;
+padding-top: 20px;
+margin-bottom: 400px;
+padding-left: 40px;
+}
+
+#edit_profile  {
+float: right;
+width: 450px;
+padding-top: 20px;
+margin-bottom: 400px;
+}
+#all_edit {
+padding-bottom: 400px;
+}
+
+/*forget_password.php*/
+
+#forget {
+border-width: thin;
+border-style: solid;
+border-color: #D5E2EB;
+margin-left: 160px;
+padding: 10px;
+padding-bottom: 800px;
+}
+
+#pass {
+text-align: center;
+width: 915px;
+}
+
+#emtable {
+padding-left: 400px;
+}
+
+#em {
+padding-top: 20px;
+}
+
+#ems {
+padding-left: 10px;
+}
+
+/*confirmation.php */
+
+#confirmation  {
+margin-left: 230px;
+padding: 10px;
+text-align: center;
+padding-bottom: 800px;
+}
+
+/*admin.php*/
+
+.erroradmin {
+text-align:center;
+color: blue;
+}
+.staradmin {
+color: blue;
+}
+#to  {
+float: left;
+}
+
+#k {
+float: right;
+padding-right: 200px;
+}
+
+#adsave  {
+padding-left: 5px;
+}
+#adsave2  {
+padding-left: 360px;
+padding-bottom: 100px;
+}
+
+/*categoryforadmin*/
+
+#allcategforadmindiv {
+padding: 20px;
+}
+
+#allcategforadmindiv b {
+padding-top: 20px;
+padding-left: 700px;
+}
+
+
+
+#category_admin {
+padding: 15px;
+text-align: left;
+border-collapse: collapse; /*ƒелает тонкими границы между €чейками и не нужно использовать, который соедин€ет границы €чеек в данном случае border-spacing: 0px;*/
+}
+
+#subcategory_admin  {
+padding: 15px;
+text-align: left;
+border-collapse: collapse;
+}
+
+#category_div {
+float: left;
+padding-top: 20px;
+padding-left: 130px;
+padding-bottom: 800px;
+}
+#subcategory_div {
+float: right;
+padding-top: 20px;
+padding-right: 130px;
+padding-bottom: 800px;
+}
+
+#category_admin td {
+border: thin solid black;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#subcategory_admin td  {
+border: thin solid black;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#category_admin th {
+text-align: center;
+color: #FD4F00;
+}
+
+#subcategory_admin th  {
+text-align: center;
+color: #040478
+}

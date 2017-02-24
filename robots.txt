@@ -1,0 +1,10 @@
+User-agent: Yandex
+Disallow: /excel
+Disallow: /images
+Disallow: /sounds
+Host: wexplorer.ru
+
+User-agent: *
+Disallow: /excel
+Disallow: /images
+Disallow: /sounds
